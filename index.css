@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  height: 450px;
+  width: 500px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.back > div {
+  height: 99%;
+  width: 0.595%;
+  background: white;
+  margin: 1px;
+}
+button {
+  color: white;
+  background: black;
+  margin: 10px;
+  border: 1px solid white;
+}
+button:hover {
+  color: black;
+  background: white;
+  margin: 10px;
+  border: 1px solid black;
+}
+button:active {
+  color: white;
+  background: red;
+  margin: 10px;
+  border: 1px solid orangered;
+}
